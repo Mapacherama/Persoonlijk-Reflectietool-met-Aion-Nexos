@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflexión 80/20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Aplicación de Reflexión 80/20</h1>
+    </header>
+    <main>
+        <section id="prompt-section">
+            <h2>Pregunta del día:</h2>
+            <p id="prompt">Cargando tu pregunta...</p>
+        </section>
+
+        <section id="note-section">
+            <h2>Escribe tu reflexión:</h2>
+            <textarea id="noteInput" rows="5" placeholder="Escribe aquí tu nota..."></textarea>
+            <button onclick="saveNote()">Guardar Nota</button>
+        </section>
+
+        <section id="notes-list">
+            <h2>Tus Reflexiones:</h2>
+            <div id="notes"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
